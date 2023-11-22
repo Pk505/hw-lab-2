@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "Hello World!";
+    char name[20];
+    cout<<"What is your name?\n";
+    cin>>name;
+    cout << "Hello World from" <<name;
     return 0;
 }
